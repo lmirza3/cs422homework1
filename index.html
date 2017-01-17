@@ -1,0 +1,76 @@
+ <!--
+Design by Bryant Smith
+http://www.bryantsmith.com
+http://www.aszx.net
+email: template [-at-] bryantsmith [-dot-] com
+Released under Creative Commons Attribution 2.5 Generic.  In other words, do with it what you please; but please leave the link if you'd be so kind :)
+
+Name       : An Ocean of Sky
+Description: One column, with top naviation.  All divs, validations: XHTML Strict 1.0 & CSS
+Version    : 1.0
+Released   : 20081009
+-->
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="anoceanofsky.css" />
+<title>An Ocean of Sky by Bryant Smith</title>
+</head>
+
+<body>
+    <div id="page">
+        <div class="topNaviagationLink"><a href="index.html">Home</a></div>
+	    <div class="topNaviagationLink"><a href="index.html">Resources</a></div>
+	</div>
+    <div id="mainPicture">
+    	<div class="picture">
+        	<div id="headerTitle">CS422 Homework 1</div>
+            <div id="headerSubtext">Toaster Oven Analysis</div>
+        </div>
+    </div>
+        <div class="contentBox">
+    	<div class="innerBox">
+        	<div class="contentTitle">Overview</div>
+          <div class="contentText"><p>The toaster oven in my apartment is quite simplistic. It does not include functionality for the temperature, and only allows the user to control the cooking function and the time. Normally, I use this oven to toast bread, bagels, and waffles. Occasionally, I will use it for other snacks like chicken nuggets and pizza bagels, but the size of my toaster oven is small and would probably only cook about 4 chicken nuggets at a time, so I usually use the oven for tasks of that nature. </p><br />
+          <center></center><img src="toaster.jpg" alt="toaster" style="width:504px;height:428px;"></center>
+            
+            <br>
+            <center></center><img src="handle.jpg" alt="toaster" style="width:504px;height:428px;"></center>
+            
+            <br>
+            
+            <center></center><img src="knobs.jpg" alt="toaster" style="width:504px;height:628px;"></center>
+          </div>
+
+        
+        <div class="contentTitle">Interface</div>
+            <div class="contentText"><p>This toaster oven has a pretty straightforward interface, though it doesn’t seem to make toasting bread any easier than baking a cake. The only functionality it does include is a “light, medium, dark” option which doesn’t specifically cater to toast. 
+The lack of specificity for toast isn’t necessarily a bad thing for this toaster oven. When I use it, I simply turn the timer knob to “dark,” since the “Function” knob rarely changes from being pointed at “Toast.” To heat pizza, I would have to turn the knob to “Bake,” and probably turn the “Timer” knob to the longest time (15 minutes) and probably come back to continually set the time again considering 15 minutes might not be enough. 
+The toaster oven has a few logos to help the user navigate the controls. There are two knobs, and both are labeled. The “Function” knob is labeled with a small icon of a toaster oven with a top and bottom, and the “Timer” knob is labeled with a small clock. After that is done, the oven sends feedback to the user because the timer begins to tick once it has been set to a particular time. Additionally, the knob has a pointed end that is textured to indicate the pointed end of the knob, which tells the user which end of the knob is the “pointing” end.
+It is easy to make mistakes with this design for a few reasons. Primarily, the timer will tick whether the unit is powered on or off. This is misleading, because most individuals interpret the timer as feedback that the unit is, in fact, cooking the food. Additionally, the pointed end of the knob is not much narrower than the non-pointed end, and the small texture indicating the pointed end is the same color as the rest of the knob, which makes it easy for the user to use the wrong end of the knob to point. 
+</p><br />
+</div>
+        
+        
+        <div class="contentTitle">The Good</div>
+          <div class="contentText"><p>The power of the design for this toaster oven lies in its simplicity. It’s easy for the user to just walk up to the oven, insert their food, and turn one or two knobs to get their desired result. The knobs are labeled with both an icon and text, which help to ensure that the user understands the functionality of both knobs. </p><br /></div>
+        </div>
+
+    
+    <div class="contentTitle">The Bad</div>
+          <div class="contentText"><p>There is a lot to be desired in this design. Firstly, there is no indication that the toaster oven is successfully turned on. The timer ticking regardless of power is incredibly confusing and is bad feedback for the user. The labels are okay, but the logo for the “function” knob is confusing. It is literally a box with two lines in the middle. If the text was absent from the logo, I would not understand what the logo was trying to say. The text present on the knob is very tiny given the space available, which can be hard to read for many. The textured, pointed end of the knob is the same color as the rest of the knob, which makes it difficult for users to understand which end is the pointed end. </p><br /></div>
+    
+    
+     <div class="contentTitle">Improvements</div>
+          <div class="contentText"><p>To solve some of the issues that came with the toaster oven, I've created a sketch in Photoshop depicting the improvements I believe would help ensure a better user experience for individuals utilizing the toaster oven. </p><br />
+            <center></center><img src="solution.jpg" alt="solution" style="width:604px;height:428px;"></center>
+          <p>There are a few different things I've added with the goal of ensuring a better user experience. Firstly, I chose to implement a large light on the top (indicated in red) that will glow when the toaster oven is on and heating. I chose to implement this because I've had issues with toaster ovens giving me the wrong feedback, and I think it is much easier to understand that the toaster oven is on when there is a large light giving me feedback. Because the majority of individuals I've asked and I use a toaster oven primarily to toast bread, pizza, and waffles, I thought it should be important to have that option available directly without having to touch the dials at all. Because of that, I added a "Quick Start" panel, allowing the individual to simply press a toast, pizza, or waffle button, and drag a slider to desired shade of darkness. By allowing a user a quick panel for their most commonly used items, it eliminates extra work. Instead of having to utilize the knobs 100% of the time, they can simply choose a preset with visuals to help eliminate guesswork and to help users who are controlling the toaster oven for the first time. I liked the knobs that were available previously, though I did make some adjustments that I felt would better the user experience. I changed the labels for toast, broil, and bake in order for Toast to be displayed on the top. I believe that individuals primarily use toaster ovens to toast, not to bake,and so I believe it is important for the toast label to physically higher so that the user sees it atop everything else. I also eliminated the "light to dark" label on the timer because I already added a light-dark panel above. In addition, I added red tips to the pointers on the knobs, with accompanying red rings around the knobs to make it clearer to the user which end of the knob is designed for pointing. I chose not to implement an on/off button because I liked the idea of eliminating that extra step. I also added a "hold" to the circle, because I thought it should be important that a user can keep the toaster oven on for their preferred time.</p>
+            </div>
+        </div>
+    </div>
+        <div id="footer"><a href="http://www.aszx.net">web development</a> by <a href="http://www.bryantsmith.com">bryant smith</a></div>
+</body>
+</html>
